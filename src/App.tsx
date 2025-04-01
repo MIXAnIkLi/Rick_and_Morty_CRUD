@@ -18,8 +18,8 @@ function App() {
         <Header
           className="app__header"
         >
-          <Link to="/create-person"><Button type="primary">Создать персонажа</Button></Link>
-          <Link to="/">
+          <Link to="/Rick_and_Morty_CRUD/create-person"><Button type="primary">Создать персонажа</Button></Link>
+          <Link to="/Rick_and_Morty_CRUD">
           <Menu
             theme="dark"
             items={items}
@@ -31,9 +31,9 @@ function App() {
             className="app__contet"
           >
             <Routes>
-              <Route path="/" element={<MainPage />} />
-              <Route path="/:id" element={<CardInfo />} />
-              <Route path="/create-person" element={<CreatePerson />} />
+              <Route path="/Rick_and_Morty_CRUD" element={<MainPage />} />
+              <Route path="/Rick_and_Morty_CRUD/:id" element={<CardInfo />} />
+              <Route path="/Rick_and_Morty_CRUD/create-person" element={<CreatePerson />} />
             </Routes>
           </div>
         </Content>
