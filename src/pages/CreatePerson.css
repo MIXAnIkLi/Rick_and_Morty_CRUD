@@ -1,0 +1,15 @@
+.form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 250px;
+}
+
+.form__item label {
+    color: aliceblue !important;
+}
+
+.form__input {
+    background-color: antiquewhite;
+}

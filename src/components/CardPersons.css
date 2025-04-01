@@ -1,0 +1,28 @@
+.card__item {
+  max-width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card__like_active {
+  color: red !important;
+}
+
+.card__like_active:active {
+  color: rgb(13, 82, 220) !important;
+}
+
+.card__like:hover {
+  color: red !important;
+}
+
+.card__like {
+  z-index: 2;
+  position: relative;
+}
+
+.card__btn {
+  z-index: 2;
+  position: relative;
+}
+

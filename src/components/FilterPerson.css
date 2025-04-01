@@ -1,0 +1,10 @@
+.select {
+    margin-bottom: 15px;
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+}
+
+.select__filter {
+    width: 120px;
+}

@@ -1,0 +1,13 @@
+.card {
+    text-align: start;
+}
+
+.card__info {
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.card__image {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
